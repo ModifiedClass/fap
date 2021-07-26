@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+flask-httpauth = "*"
+flask-uploads = "*"
+flask-mongoengine = "*"
+flask-redis = "*"
+flask-cache = "*"
+pillow = "*"
+flask-mail = "*"
+log4mongo = "*"
+cymysql = "*"
+pymysql = "*"
+gevent-websocket = "*"
+paramiko = "*"
+flask = "*"
+xlwt = "*"
+xlsxwriter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
